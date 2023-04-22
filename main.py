@@ -1,10 +1,10 @@
 import cv2
 import winsound
-import streamlit as st
+
 from gui_buttons import Buttons
 
 
-st.title(" Real time ")
+
 # Initialize Button
 button = Buttons()
 button.add_button("elephant", 20, 20)
